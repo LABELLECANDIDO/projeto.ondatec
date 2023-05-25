@@ -1,0 +1,95 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel=stylesheet>
+    <title>Portal OndaTec</title>
+</head>
+
+<body>
+    <div id="menu">
+        <img src="img/onda.png" alt="logo onda tec">
+        <a href="index.html">
+            <div class="item">Inicio</div>
+        </a>
+        <a href="sobre.html">
+            <div class="item">Sobre</div>
+        </a>
+        <a href="projeto.html">
+            <div class="dropdown">
+                <span>projetos</span>
+                <div class="dropdown-content">
+                    <a href="graduacao.html">
+                        <p>ensino - graduação</p>
+                    </a>
+                    <a href="medio.html">
+                        <p>ensino - medio</p>
+                    </a>
+                    <a href="funda.html">
+                        <p>ensino - fundamental 1</p>
+                    </a>
+                    <a href="fundament.html">
+                        <p>ensino - fundamental 2</p>
+                    </a>
+                </div>
+            </div>
+        </a>
+        <a href="cadastro.html">
+            <div class="item">cadastro</div>
+        </a>
+        <a href="apoio.html">
+            <div class="item">apoio</div>
+        </a>
+        <a href="mapa.html">
+            <div class="item">mapa</div>
+        </a>
+    </div>
+    <div id="body-wrapper">
+        <div class="section"><img class="logop" src="img/fundonovotec.png" alt="logo onda tec"></div>
+        <div class="section-mapa">
+            <br><br><br>
+            <!--  <div class="texto-mapa" style="height: 500px; width: 600px;"> -->
+            <h1>Visão</h1>
+            <h3>Objetivos da Onda Tec</h3>
+            <div class="texto-mapa">
+                <img src="img/mapa.png" alt="mapa do brasil">
+                <p>
+                    A empresa OndaTec tem como objetivo ajudar cidadãos brasileiros em situações difíceis, <br> como
+                    indígenas,
+                    pessoas com deficiência e crianças em situação de risco. <br> Eles se dedicam a desenvolver soluções
+                    e
+                    projetos que possam melhorar a vida dessas pessoas e proporcionar mais igualdade e justiça
+                    social. <br> A
+                    OndaTec acredita que é importante olhar para além do lucro e investir em ações que possam
+                    ajudar a
+                    construir uma sociedade mais justa e solidária.</p>
+            </div>
+
+
+            <a href="saiba.html"><button class="btn-saiba">saiba mais</button></a>
+        </div>
+    </div>
+    <div class="section">Terceira Secção</div>
+    <div class="section">quarta secção</div>
+    </div>
+    </div>
+
+
+
+
+    <script>var el = document.getElementById('menu'); // elemento alvo
+        var numPx = '250'; // Quantidade de pixels a contar do TOP até definir a cor
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > numPx) {
+                el.classList.add('mudaCor'); // adiciona classe "mudaCor"
+            } else {
+                el.classList.remove('mudaCor'); // remove classe "mudaCor"
+            }
+        });</script>
+</body>
+
+</html>
