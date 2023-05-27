@@ -5,13 +5,6 @@
     padding: 0;
     font-family: 'Saira Condensed', sans-serif;
 }
-html {
-    background-image: url("../img/imgback.jpg");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
 .container-materias {
     background-color: #101010;
     width: 100%;

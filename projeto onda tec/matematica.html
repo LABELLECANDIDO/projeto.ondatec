@@ -1,0 +1,55 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style17.css" rel=stylesheet>
+    <title>Portal OndaTec</title>
+</head>
+
+<body>
+    <div id="menu">
+        <link rel="stylesheet" href="css/style13.css">
+        <img src="img/onda.png" alt="logo onda tec">
+        <a href="index.html">
+            <div class="item">Inicio</div>
+        </a>
+        <a href="monitoria.html">
+            <div class="item">monitoria</div>
+        </a>
+        <a href="apoio.html">
+            <div class="item">materias</div>
+        </a>
+        <a href="materialmat.html">
+            <div class="item">material</div>
+        </a>
+        <a href="projeto.html">
+            <div class="item">projetos</div>
+        </a>
+        <a href="biblioteca.html">
+            <div class="item">biblioteca</div>
+        </a>
+    </div>
+    <div class="video-materia"><video width="320" height="240" controls="controls" autoplay="autoplay">
+            <source src="funçoes matematica.mp4" type="video/mp4">
+            <object data="" width="320" height="240">
+                <embed width="320" height="240" src="funçoes matematica.mp4">
+            </object>
+        </video>
+    </div>
+       <!--script do navbar-->
+       <script>var el = document.getElementById('menu'); // elemento alvo
+        var numPx = '250'; // Quantidade de pixels a contar do TOP até definir a cor
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > numPx) {
+                el.classList.add('mudaCor'); // adiciona classe "mudaCor"
+            } else {
+                el.classList.remove('mudaCor'); // remove classe "mudaCor"
+            }
+        });</script>
+</body>
+
+</html>

@@ -17,12 +17,10 @@ html {
 .section-mapa img {
    display: flex;
    width: 500px;
-   margin-top: 0px;
+   margin-top: 90px;
    display: flex;
 
 }
-
-
 
 .section {
    height: 100vh;
@@ -35,13 +33,24 @@ html {
 .texto-mapa img p {
    display: inline-block;
 }
-
 .texto-mapa p {
-   margin-left: 20px;
+   margin-left: 100px;
    font-size: 22px;
+   margin-top: 200px;
+   display: inline-block;
+}
+.texto-mapa h1 h3 {
+   margin-left: 60px;
    margin-top: 30px;
    display: inline-block;
 }
+.texto-mapa h3 {
+   margin-left: 30px;
+   margin-top: 40px;
+
+}
+
+
 
 .logop {
    width: 100%;
@@ -57,13 +66,14 @@ html {
 #menu img {
    margin: 7px 10px;
    float: right;
+   width: 240px;
 }
 #menu {
    position: fixed;
    top: 0;
    left: 0;
    right: 0;
-   height: 50px;
+   height: 60px;
    border-bottom: 3px solid whitesmoke;
    transition: background-color 0.3s ease-in-out;
 }
@@ -73,15 +83,15 @@ html {
    padding: 15px;
    color: white;
    text-decoration: none;
-   font-size: 17px;
+   font-size: 20px;
    margin: 7px 10px;
    margin-top: 3px;
 }
 
 /* Nova classe a ser atribuída ao elemento com os estilos desejados */
 .mudaCor {
-   background-color: #00071a;
-   color: white;
+   background-color: #ffffff80;
+   color: rgb(255, 255, 255);
 }
 
 #body-wrapper {
@@ -92,6 +102,7 @@ html {
 .dropdown {
    position: relative;
    display: inline-block;
+   font-size: 20px;
 
 }
 

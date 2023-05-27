@@ -16,8 +16,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    border-bottom: 4px solid whitesmoke;
+    height: 60px;
     transition: background-color 0.3s ease-in-out;
     
  }
