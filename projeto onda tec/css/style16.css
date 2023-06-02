@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: brown;
+    color: rgba(27,30,100,1);
     transform: scale(1.2);
 }
 
@@ -78,7 +78,7 @@ h1 {
     font-size: 70px;
 }
 .Main span{
-    color: rgb(45, 34, 99);
+    color: rgba(27,30,100,1);
 }
 h2{
     color: #ffff;
@@ -154,14 +154,14 @@ aside {
 }
 
 .text-sobre h2 {
-    color: rgb(1, 7, 66);
+    color: rgba(246,255,103,1);
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 10px;
 }
 
 .text-sobre h4 {
-    color: white;
+    color: rgba(177,191,185,1);
     letter-spacing: 2px;
     font-size: 20px;
     margin-bottom: 25px;
@@ -177,7 +177,7 @@ aside {
 }
 
 .button {
-    background-color: rgb(1, 7, 66);
+    background-color: #5e9188;
     color: white;
     text-transform: none;
     border: 2px solid transparent;

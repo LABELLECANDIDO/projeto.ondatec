@@ -7,10 +7,10 @@
    margin: 0;
 }
 .texto-apoio span{
-         color: rgb(85, 77, 121);
+         color: rgba(54,173,120,1);
 }
 .texto-mapa span{
-   color: rgb(85, 77, 121);
+   color: rgba(54,173,120,1);
 }
 html {
    background-color: #000000;
@@ -39,7 +39,7 @@ html {
    align-items: center;
    margin-left: 100px;
    font-size: 25px;
-   color: rgb(45, 34, 99);
+   color:rgba(246,255,103,1);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -88,16 +88,17 @@ html {
    margin-left: 100px;
    text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgba(246,255,103,1);
 }
 .section-apoio h3{
    margin-left: 100px;
    font-size: 17px;
-   color: rgb(45, 34, 99);
+
    font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 .btn-saiba {
-   background-color: rgb(1, 7, 66);
+   background-color: #5e9188;
    color: white;
    text-transform: none;
    border: 2px solid transparent;
@@ -120,10 +121,9 @@ html {
    display: inline-block;
    width: 700px;
    text-align: center;
-   
 }
 .btn-apoio {
-   background-color: rgb(1, 7, 66);
+   background-color: #5e9188;
    color: white;
    text-transform: none;
    border: 2px solid transparent;
@@ -145,21 +145,6 @@ html {
    margin-left: 70px;
 }
 /*//final apoio/*/
-
-/*////linha vertical ////*/
-.linha-vertical {
-   height: 700px;/Altura da linha/
-   border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-   margin-left: 6px;
-   display: flex;
- }
-
- .linha-vertical2 {
-   height: 500px;/Altura da linha/
-   border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-   margin-left: 6px;
-   display: flex;
- }
 
 .logop {
    /*/////fundo onda tec/////*/
@@ -184,7 +169,7 @@ html {
    left: 0;
    right: 0;
    height: 50px;
-   border-bottom: 3px solid whitesmoke;
+   border-bottom: 3px solid rgba(54,173,120,1);
    transition: background-color 0.3s ease-in-out;
 }
 
@@ -200,7 +185,7 @@ html {
 
 /* Nova classe a ser atribuída ao elemento com os estilos desejados */
 .mudaCor {
-   background-color: #00071a;
+   background-color:rgba(54,173,120,1);
 
 }
  
@@ -243,12 +228,12 @@ html {
 }
 
 .dropdown a:hover p {
-   background-color: #00071a;
+   background-color: #3e5954;
    border-radius: 4px;
    color: white;
 }
 footer{
-   background-color: #00071a;
+   background-color: #00e7bd;
    padding: 50px 0;
 }
 .container-footer{
@@ -313,7 +298,7 @@ footer{
 }
 
 .footer-col .medias-socias a:hover{
-   color: #051350;
+   color: #5e9188;
    background-color: white;
 }
 .footer-col .form-sub input{
@@ -341,7 +326,7 @@ footer{
    outline: none;
    border: none;
    cursor: pointer;
-   color: #000b3a;
+   color: #5e9188;
    border-radius: 3px;
    font-weight: bold;
    background-color: white;        
