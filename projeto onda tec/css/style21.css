@@ -1,3 +1,4 @@
+/*////TESTE ALFABE//////*/
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
 
 * {
@@ -7,7 +8,7 @@
 }
 
 html {
-    background-image: url("../img/imgback.jpg");
+    background-image: url("../img/fundoalfabet.avif");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,3 +42,20 @@ p {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+.btn-saiba {
+    background-color: #1fb9a7;
+    color: rgb(0, 0, 0);
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+ margin-left: 600px;
+ }
+ .btn-saiba:hover {
+    background-color: transparent;
+    border: 2px solid #629643;
+    color: white;
+ }

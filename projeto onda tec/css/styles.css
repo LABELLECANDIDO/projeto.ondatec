@@ -7,10 +7,10 @@
    margin: 0;
 }
 .texto-apoio span{
-         color: rgba(54,173,120,1);
+         color: #629643;
 }
 .texto-mapa span{
-   color: rgba(54,173,120,1);
+   color: #629643;
 }
 html {
    background-color: #000000;
@@ -39,7 +39,7 @@ html {
    align-items: center;
    margin-left: 100px;
    font-size: 25px;
-   color:rgba(246,255,103,1);
+   color:#a7ad2c;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -88,7 +88,7 @@ html {
    margin-left: 100px;
    text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: rgba(246,255,103,1);
+   color: #a7ad2c;
 }
 .section-apoio h3{
    margin-left: 100px;
@@ -98,7 +98,7 @@ html {
   
 }
 .btn-saiba {
-   background-color: #5e9188;
+   background-color: #082b2c;
    color: white;
    text-transform: none;
    border: 2px solid transparent;
@@ -112,7 +112,7 @@ html {
 }
 .btn-saiba:hover {
    background-color: transparent;
-   border: 2px solid rgb(0, 9, 32);
+   border: 2px solid #629643;
 }
 .texto-apoio p {
    margin-left: 10px;
@@ -123,7 +123,7 @@ html {
    text-align: center;
 }
 .btn-apoio {
-   background-color: #5e9188;
+   background-color: #082b2c;
    color: white;
    text-transform: none;
    border: 2px solid transparent;
@@ -138,7 +138,7 @@ html {
 
 .btn-apoio:hover {
    background-color: transparent;
-   border: 2px solid rgb(0, 9, 32);
+   border: 2px solid #629643;
 }
 .section-apoio img {
    width: 600px;
@@ -169,7 +169,7 @@ html {
    left: 0;
    right: 0;
    height: 50px;
-   border-bottom: 3px solid rgba(54,173,120,1);
+   border-bottom: 3px solid #082b2c;
    transition: background-color 0.3s ease-in-out;
 }
 
@@ -185,7 +185,7 @@ html {
 
 /* Nova classe a ser atribuída ao elemento com os estilos desejados */
 .mudaCor {
-   background-color:rgba(54,173,120,1);
+   background-color:#082b2c;
 
 }
  
@@ -228,22 +228,24 @@ html {
 }
 
 .dropdown a:hover p {
-   background-color: #3e5954;
+   background-color: #082b2c;
    border-radius: 4px;
    color: white;
 }
 footer{
-   background-color: #00e7bd;
+   background: #082b2c;
    padding: 50px 0;
 }
 .container-footer{
    max-width: 1800px;
    padding: 0 4%;
    margin: auto;
+   background-color: #082b2c;
 }
 .row-footer{
    display: flex;
    flex-wrap: wrap;
+   background-color: #082b2c;
 }
 
 .footer-col{
@@ -308,7 +310,7 @@ footer{
    outline: none;
    border: 1px solid white;
    color: white;
-   background-color: #1b2c75;
+   background-color: #576125;
    border-radius: 20px;
    margin-top: 2px;
 }

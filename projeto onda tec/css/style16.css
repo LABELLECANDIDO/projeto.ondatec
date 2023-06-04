@@ -36,7 +36,7 @@ nav {
 }
 
 span {
-    color: rgb(5, 12, 48);
+    color: #a7ad2c;
 }
 
 nav ul li {
@@ -78,7 +78,7 @@ h1 {
     font-size: 70px;
 }
 .Main span{
-    color: rgba(27,30,100,1);
+    color: #a7ad2c;
 }
 h2{
     color: #ffff;
@@ -113,7 +113,7 @@ h3{
     padding: 10px 30px;
     border: none;
     border-radius: 30px;
-    background-color: rgb(9, 2, 43);
+    background-color: #576125;
     color: #ffff;
     box-shadow: 0px 0px 15px #858585;
     right: 6px;
@@ -161,7 +161,7 @@ aside {
 }
 
 .text-sobre h4 {
-    color: rgba(177,191,185,1);
+    color: #629643;
     letter-spacing: 2px;
     font-size: 20px;
     margin-bottom: 25px;
@@ -177,7 +177,7 @@ aside {
 }
 
 .button {
-    background-color: #5e9188;
+    background-color: #082b2c;
     color: white;
     text-transform: none;
     border: 2px solid transparent;
@@ -190,7 +190,7 @@ aside {
 
 .button:hover {
     background-color: transparent;
-    border: 2px solid rgb(0, 9, 32);
+    border: 2px solid #629643;
 }
 
 footer {
@@ -246,7 +246,7 @@ footer p {
 
 .end {
     position: absolute;
-    color: brown;
+    color: #629643;
     bottom: 70px;
     font-size: 14px;
 }
