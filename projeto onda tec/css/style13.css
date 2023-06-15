@@ -16,7 +16,8 @@
    top: 0;
    left: 0;
    right: 0;
-   height: 60px;
+   height: 50px;
+   border-bottom: 3px solid #082b2c;
    transition: background-color 0.3s ease-in-out;
 }
 
@@ -32,6 +33,5 @@
 
 /* Nova classe a ser atribuída ao elemento com os estilos desejados */
 .mudaCor {
-   background-color: #00071a;
-   color: white;
+   background-color: #082b2c;
 }
